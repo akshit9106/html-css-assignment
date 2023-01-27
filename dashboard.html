@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard-style.css">
+</head>
+<body>
+    <div class="dashboard-main">
+    <div>
+        <header class="dashboard-header">
+            <img src="images/menu-bar.svg" alt="menu-bar" id="menu-bar">
+
+            <img src="images/logo.svg" alt="logo" id="dashboard-logo">
+
+            <img src="images/search-icon.svg" alt="search" id="search-icon">
+
+            <b id="search">Search</b>
+
+            <img src="images/notification-icon.svg" alt="notification-icon" id="notification-icon">
+
+            <img src="images/profile.png" alt="profile-photo" id="profile">
+
+            <b id="profile-name">John Doe</b>
+
+            <img src="images/downward-arrow.svg" alt="down-arrow" id="down-arrow">
+
+
+        </header>
+    </div>
+
+    <aside>
+        <nav>
+            <ul>
+                <li id="active"> <a href="#"> <img src="images/dashboard-active.svg" alt="" class="nav-icon"> <span class="nav-item" id="active-text">Dashboard</span> </a> </li>
+                <li> <a href="#"> <img src="images/graph-default.svg" alt="" class="nav-icon"><span class="nav-item">Analysis</span></a> </li>
+                <li> <a href="#"> <img src="images/inbox-default.svg" alt="" class="nav-icon"><span class="nav-item">Inbox</span> </a> </li>
+                <li> <a href="#"> <img src="images/clock-default.svg" alt="" class="nav-icon"><span class="nav-item">History</span> </a> </li>
+                <li> <a href="#"> <img src="images/user-default.svg" alt="" class="nav-icon"><span class="nav-item">Users</span> </a> </li>
+                <li> <a href="#"> <img src="images/maintenance-default.svg" alt="" class="nav-icon"><span class="nav-item">Maintainence</span></a> </li>
+                <li> <a href="#"> <img src="images/setting-default.svg" alt="" class="nav-icon"><span class="nav-item">Setting</span></a> </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <h1>Dashboard</h1>
+        <div class="insights">
+            <div class="new-product">
+                <div class="left">
+                    <img src="images/star.svg" alt="" class="insight-img">
+                </div>
+                <div class="right">
+                    <p id="data"> 23,456</p>
+                    <p id="data-text">New Product</p>
+                </div>
+            </div>
+
+            <div class="added-product">
+                <div class="left">
+                    <img src="images/new-product.svg" alt="" class="insight-img">
+                </div>
+                <div class="right">
+                    <p id="data"> 2,345</p>
+                    <p id="data-text">Added Product</p>
+                </div>
+            </div>
+
+            <div class="total-product">
+                <div class="left">
+                    <img src="images/total-product.svg" alt="" class="insight-img">
+                </div>
+                <div class="right">
+                    <p id="data"> 32,456</p>
+                    <p id="data-text">Total Product</p>
+                </div>
+            </div>
+
+            <div class="todays-sale">
+                <div class="left">
+                    <img src="images/dollar-filled.svg" alt="" class="insight-img">
+                </div>
+                <div class="right">
+                    <p id="data"> 5,678</p>
+                    <p id="data-text">Today's Sale</p>
+                </div>
+            </div>
+
+            <div class="total-sale">
+                <div class="left">
+                    <img src="images/money-bag.svg" alt="" class="insight-img">
+                </div>
+                <div class="right">
+                    <p id="data"> 33,5342</p>
+                    <p id="data-text">Total Sale</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sales">
+            <div class="top">
+                <span class="sales-title">Sales</span>
+                <span class="sales-time">Weekly &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Monthly</span>
+                <span class="sales-year">Yearly </span>   
+            </div>
+            <div class="bottom">
+                <img src="images/data-graph.png" alt="">
+            </div>
+        </div>
+
+        <div class="sales-by-country">
+            <div class="sales-top">
+                <span class="sales-title">Sales by Country</span>
+
+            </div>
+            <div class="sales-bottom">
+                <img src="images/pie-chart.svg" alt="">
+                <!-- <span class="color-dot">.</span><span class="sales-bottom-text">United States of America</span>
+                <span class="color-dot">.</span><span class="sales-bottom-text">Canada</span>
+                <span class="color-dot">.</span><span class="sales-bottom-text">Russia</span>
+                <span class="color-dot">.</span><span class="sales-bottom-text">India</span> -->
+            </div>
+        </div>
+
+
+        <div class="invoices">
+            <div class="invoices-top">
+                <span class="sales-title">Invoices</span>
+                <span class="sales-year">View all</span>
+            </div>
+            
+            <div class="invoices-bottom">
+                <table class="invoice-table">
+                    <tr>
+                        <th>INVOICE</th>
+                        <th>COMPANY NAME</th>
+                        <th>EMAIL</th>
+                        <th>DUE DATE</th>
+                        <th>STATUS</th>
+                        <th>AMOUNT</th>
+                    </tr>
+                    <tr>
+                        <td>651535</td>
+                        <td>Public Adjusting Film</td>
+                        <td>georgia.young@example.com</td>
+                        <td>24 May,2020</td>
+                        <td class="status-sucess"> <span>Paid</span></td>
+                        <td>$47,800</td>
+                    </tr>
+                    <tr>
+                        <td>558612</td>
+                        <td>Other</td>
+                        <td>jessica.hasson@example.com</td>
+                        <td>24 May,2020</td>
+                        <td class="status-sucess"> <span>Paid</span></td>
+                        <td>$98,000</td>
+                    </tr>
+
+                    <tr>
+                        <td>558612</td>
+                        <td>Vendor</td>
+                        <td>alma.lawson@example.com</td>
+                        <td>8 Sep,2020</td>
+                        <td class="status-sucess"> <span>Paid</span></td>
+                        <td>$20,900</td>
+                    </tr>
+
+                    <tr>
+                        <td>558612</td>
+                        <td>Property Management Company</td>
+                        <td>kenzi.laeson@example.com</td>
+                        <td>22 Oct,2020</td>
+                        <td class="status-sucess"> <span>Paid</span></td>
+                        <td>$10,570</td>
+                    </tr>
+
+                    <tr>
+                        <td>651535</td>
+                        <td>Subcontractor Company</td>
+                        <td>jackson.graham@example.com</td>
+                        <td>1 Feb,2020</td>
+                        <td class="status-failed"> <span>Failed</span></td>
+                        <td>$10,200</td>
+                    </tr>
+
+                    <tr>
+                        <td>653518</td>
+                        <td>Mortgage Company</td>
+                        <td>felicia.reid@example.com</td>
+                        <td>22 Oct,2020</td>
+                        <td class="status-pending"> <span>Pending</span></td>
+                        <td>$12,600</td>
+                    </tr>
+
+                    <tr>
+                        <td>487441</td>
+                        <td>TPA</td>
+                        <td>dolores.chambers@example.com</td>
+                        <td>21 Sep, 2020</td>
+                        <td class="status-sucess"> <span>Paid</span></td>
+                        <td>$11,170</td>
+                    </tr>
+
+                    <tr>
+                        <td>267400</td>
+                        <td>Fire Departmet</td>
+                        <td>nevaeh.simmons@example.com</td>
+                        <td>17 Oct,2020</td>
+                        <td class="status-failed"> <span>Failed</span></td>
+                        <td>$47,800</td>
+                    </tr>
+
+                    <tr>
+                        <td>449003</td>
+                        <td>Insurance Carrier</td>
+                        <td>curtis.weaver@example.com</td>
+                        <td>21 Sep,2020</td>
+                        <td class="status-sucess"> <span>Paid</span></td>
+                        <td>$10,000</td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    </div>  
+</body>
+</html>
