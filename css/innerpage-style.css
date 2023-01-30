@@ -208,7 +208,7 @@ h1{
     margin: 15px;
     margin-top: 23px;
     margin-left: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     text-align: left;
     font: normal normal 22px/29px Roboto;
     letter-spacing: 0px;
@@ -236,6 +236,7 @@ h1{
 .column1 textarea{
     margin-left: 31px;
     margin-top: 21px;
+    margin-bottom: 45px;
     width: 1157px;
     height: 130px;
     border: 1px solid #ADADAD;
@@ -243,8 +244,202 @@ h1{
 }
 
 .column2 input{
+    margin-left: 30px;
+    margin-bottom: 20px;
     width: 563px;
     height: 49px;
     border: 1px solid #ADADAD;
     border-radius: 5px;
 }
+
+.column2 select{
+    margin-left: 30px;
+    width: 563px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+
+.column3 input{
+    margin-left: 30px;
+    margin-top: 18px;
+    width: 364px;
+    height: 47px;
+    border-radius: 5px;
+    margin-bottom: 48px;
+}
+
+.column3 input:focus{
+    outline: none;
+    border: 1px solid #C8242F;
+}
+
+.column4 input{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 266px;
+    height: 47px;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+
+.column4 select{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 266px;
+    height: 47px;
+    border-radius: 5px;
+}
+
+.column5-title{
+    margin-left: 30px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}
+
+.upload-file{
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 36px;
+    width: 124px;
+    height: 36px;
+    border: 1px solid #C8242F;
+    border-radius: 18px;
+}
+
+.upload-file span{
+    color: #C8242F;
+}
+
+.radio-button{
+    margin-left: 30px;
+    margin-top: 14px;
+    margin-bottom:35px;
+    background: #C8242F;
+}
+
+.checkbox{
+    margin-left: 30px;
+    margin-top: 14px;
+    margin-bottom:35px;
+}
+
+.snackbar{
+    margin-left: 28.5px;
+    margin-top: 15.8px;
+    float: left;
+    width: 563px;
+    height: 44px;
+    border: 1px solid;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.snackbar img{
+    width: 15px;
+    height: 15px;
+}
+
+#snackbar1{
+    border: 1px solid #FF3535;
+}
+
+#snackbar1 span{
+    color: #FF3535;
+}
+
+#snackbar2{
+    border: 1px solid #00B9E1;
+}
+
+#snackbar2 span{
+    color: #00B9E1 ;
+}
+
+#snackbar3{
+    border: 1px solid #FFA800;
+}
+
+#snackbar3 span{
+    color: #FFA800;
+}
+
+#snackbar4{
+    border: 1px solid #00AF27;
+}
+
+#snackbar4 span{
+    color: #00AF27;
+}
+
+.primary{
+    margin-left: 30px;
+    margin-top: 16px;
+    border: 0px;
+    width: 124px;
+    height: 45px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+}
+
+.secondary{
+    margin-left: 30px;
+    width: 145px;
+    height: 44px;
+    border: 1px solid #C8242F;
+    border-radius: 22px;
+}
+
+.primary span{
+    width: 63px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.secondary span{
+    width: 63px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #C8242F;
+}
+
+.button-border-style{
+    border-bottom: #adadad 1px solid;
+    width: 97.6%;
+}
+
+.tab-styles{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 70px;
+    height:70px;
+    background: transperent;
+    border:none;
+    color: #adadad;
+}
+
+.tab-styles-active{
+    color: #C8242F;
+    border-bottom: #C8242F 2px solid;
+}
+
+.button-style{
+    margin-left: 30px;
+    margin-right: 69px;
+    text-align: left;
+    font: normal normal normal 15px/24px 2px solid;
+    letter-spacing: 0px;
+    color: #3e3e3e;
+    padding-top: 25px;
+    padding-right: 22px;
+    padding-bottom: 75px;
+    font-size: 12px;
+}
+
