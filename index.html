@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <div class="main">
-            <div>
-                <img src="images/hero-image.png" alt="hero-image" id="hero-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-6 class1" >
+                <img src="images/hero-image.png" alt="hero-image" id="hero-image" class="img-fluid" width="526px" height="526px">
             </div>  
             
-            <div>
-                <img src="images/logo.svg" alt="logo" id="index-logo">
+            <div class="col-xl-6" >
+                <img src="images/logo.svg" alt="logo" id="index-logo" class="img-fluid">
     
                 <b id="tag-line">We are <b id="experts">experts</b> in business,<br>marketing, growth & sales.</b>
 
@@ -26,15 +28,16 @@
                 <input type="password" name="password" id="pass" placeholder="Password">
             
             
-                <a href="dashboard.html"><button id="login-button" title="Login"><b id="login-button-text">Login</b></button></a> 
+                <button id="login-button" title="Login"><span>Login</span></button> 
             
-                <a href="" id="forgot-pass">Forgot password?</a>
+                <span><a href="" id="forgot-pass">Forgot password?</a></span>
            
             
-                <b id="member">Are you new member?</b>
+                <span id="member">Are you new member? <span><a id="new-registration" href="">Register here</a></span></span>
             
-                <a id="new-registration" href="">Register here</a>
+                
             </div>
+        </div>
 
     </div>
 </body>
