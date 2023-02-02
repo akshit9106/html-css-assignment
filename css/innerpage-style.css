@@ -193,6 +193,10 @@ h1{
 }
 
 
+ul{
+    padding-left: 0px;
+}
+
 .form{
     float: right;
     position: absolute;

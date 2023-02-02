@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Analysis</title>
     <link rel="stylesheet" href="css/innerpage-style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
     <div class="main">
@@ -31,9 +32,9 @@
     </div>
 
     <aside>
-        <nav>
-            <ul>
-                <li> <a href="#"> <img src="images/dashboard-active.svg" alt="" class="nav-icon"> <span class="nav-item">Dashboard</span> </a> </li>
+        <nav id="nav-bar">
+            <ul style="padding-left: 0px;">
+                <li> <a href="dashboard.html"> <img src="images/dashboard-default.svg" alt="" class="nav-icon"> <span class="nav-item">Dashboard</span> </a> </li>
                 <li id="active"> <a href="#"> <img src="images/graph-active.svg" alt="" class="nav-icon"><span class="nav-item"  id="active-text">Analysis</span></a> </li>
                 <li> <a href="#"> <img src="images/inbox-default.svg" alt="" class="nav-icon"><span class="nav-item">Inbox</span> </a> </li>
                 <li> <a href="#"> <img src="images/clock-default.svg" alt="" class="nav-icon"><span class="nav-item">History</span> </a> </li>
@@ -129,11 +130,11 @@
                 <br>
                 <div class="snackbar" id="snackbar1"><img src="images/error-icon.svg" alt=""> <span> This is an error message</span></div>
 
-                <div class="snackbar" id="snackbar2"><img src="images/error-icon.svg" alt=""> <span>This is an information message!</span></div>
+                <div class="snackbar" id="snackbar2"><img src="images/info-icon.svg" alt=""> <span>This is an information message!</span></div>
 
-                <div class="snackbar" id="snackbar3"><img src="images/error-icon.svg" alt=""> <span>This is an warning message!</span></div>
+                <div class="snackbar" id="snackbar3"><img src="images/warning-icon.svg" alt=""> <span>This is an warning message!</span></div>
 
-                <div class="snackbar" id="snackbar4"><img src="images/error-icon.svg" alt=""><span> This is an sucess message!</span></div>
+                <div class="snackbar" id="snackbar4"><img src="images/success-icon.svg" alt=""><span> This is an sucess message!</span></div>
                 <br>
 
                 <br>
@@ -147,7 +148,7 @@
                 <span class="column5-title">Tabs</span>
                 <br>
 
-                <div class="buttun-border-dtyle">
+                <!-- <div class="buttun-border-dtyle">
                     <button class="tab-styles tab-styles-active">Tab 1</button>
                     <button class="tab-styles">Tab 2</button>
                     <button class="tab-styles">Tab 3</button>
@@ -157,7 +158,26 @@
                     Sequi quod incidunt dicta officiis aut voluptatibus ullam velit magnam similique veniam eum exercitationem totam nihil, 
                     asperiores tempore sit dolores eaque modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam labore ipsum praesentium minus? Repellat ipsam quae delectus, consequuntur deleniti illum officiis molestiae sequi dolore mollitia porro sapiente dolorem, fugit autem molestias dolorum?
                     Aliquid quod laudantium aperiam nemo totam consectetur delectus magnam dolorem harum, accusamus iste tempora deserunt qui commodi eos.
-                </p>
+                </p> -->
+
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" data-bs-toggle="tab" href="#tab1">Tab 1</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tab" href="#">Tab 2</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tab" href="#">Tab 3</a>
+                    </li>
+                  </ul>
+                
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div id="tab1" class="container tab-pane active"><br>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
 
             </div>
 
